@@ -20,7 +20,7 @@ const Video = () => {
             </p>
           </div>
        
-        <div className="mt-[80px] max-w-[688px] mx-auto bg-white  flex justify-between">
+        <div className="md:mt-[80px] sm:mt-[50px] mt-[35px]  max-w-[688px] mx-auto bg-white  flex justify-between">
             <input type="text" placeholder="Your Email" className="text-[#737373] py-[15px] ps-[20px] ff_mont text-[14px] leading-[20px] tracking-[0.2px] outline-0  w-full" />
             <button className="ff_mont text-[14px] text-white leading-[20px] tracking-[0.2px] bg-[#96BB7C] hover:bg-[#FFAB71] transition-all duration-400ms py-[15px] border-[#E6E6E6] border rounded-[0px 5px 5px 0px] px-[22.5px]">
             Subscribe
