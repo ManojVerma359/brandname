@@ -34,7 +34,7 @@ const Header = () => {
           />
         </div>
 
-        <nav className=" py-[30px] container mx-auto max-xl:px-3 xl:ps-1 xl:pe-[5%] flex md:justify-center justify-between sm:justify-around max-w-[1322px]">
+        <nav className=" py-[20px] container mx-auto max-xl:px-3 xl:ps-1 xl:pe-[5%] flex md:justify-center justify-between sm:justify-around max-w-[1322px]">
           <div className="flex md:justify-between md:w-full  items-center max-w-[966px]">
             <div className="flex items-center justify-between ">
               <h3 className="ff_mont text-[#252B42] font-bold text-[24px] leading-[32px] tracking-[0.1px] pe-[50px] lg:pe-[87px]">
@@ -85,7 +85,7 @@ const Header = () => {
                     Login
                   </a>
                 </li>
-                <div className=" px-[25px] py-[15px] bg-[#96BB7C] hover:bg-[#FFAB71] transition-all duration-400ms rounded-[5px] flex gap-[15px] sm:hidden">
+                <div className=" px-[25px] py-[10px] bg-[#96BB7C] hover:bg-[#FFAB71] transition-all duration-400ms rounded-[5px] flex gap-[15px] sm:hidden">
                   <button className="text-white text-[14px] leading-[32px] tracking-[0.1px] font-bold ff_mont">
                     JOIN US
                   </button>
@@ -103,7 +103,7 @@ const Header = () => {
                   Login
                 </a>
               </li>
-              <div className=" px-[25px] py-[15px] bg-[#96BB7C] hover:bg-[#FFAB71] transition-all duration-400ms rounded-[5px] flex gap-[15px]">
+              <div className=" px-[25px] py-[10px] bg-[#96BB7C] hover:bg-[#FFAB71] transition-all duration-400ms rounded-[5px] flex gap-[15px]">
                 <button className="text-white text-[14px] leading-[32px] tracking-[0.1px] font-bold ff_mont">
                   JOIN US
                 </button>
@@ -131,7 +131,7 @@ const Header = () => {
               Every day brings with it a fresh set of learning possibilities.
             </p>
             <div className="pt-[30px] gap-[10px] flex max-sm:justify-center">
-              <button className="text-[14px] text-white font-bold leading-[22px] tracking-[0.2px] ff_mont bg-[#96BB7C] hover:bg-[#FFAB71] transition-all duration-400ms px-[40px] py-[15px] rounded-[5px]">
+              <button className="text-[14px] text-white font-bold leading-[22px] tracking-[0.2px] ff_mont bg-[#96BB7C] hover:bg-[#FFAB71] transition-all duration-400ms px-[40px] py-[10px] rounded-[5px]">
                 Join Us
               </button>
               <button className="text-[14px] text-[#96BB7C] font-bold leading-[22px]  tracking-[0.2px] ff_mont border border-[#96BB7C] hover:border-[#FFAB71] hover:text-white hover:bg-[#FFAB71] transition-all duration-400ms px-[40px] py-[15px] rounded-[5px]">

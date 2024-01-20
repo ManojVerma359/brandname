@@ -1,9 +1,15 @@
-import React from "react";
 // import v_img from "../assets/images/video_img.jpg";
 import img_s from '../assets/images/img_s.webp'
 import play_icon from '../assets/images/play_icon.png'
+import React from 'react';
+// import ModalVideo from 'react-modal-video';
+// import 'react-modal-video/css/modal-video.min.css';
+// import img_s from '../path/to/your/video/image.jpg';
+// import play_icon from '../path/to/your/play/icon.png';
 
 const OurProcess = () => {
+//   onClick=() => setOpen(true)}
+// const [isOpen, setOpen] = useState(false);
   return (
     <>
       <div className="max-w-[1050px] mx-auto px-3 container sm:py-[80px] py-[40px] md:py-[160px]">
@@ -25,11 +31,27 @@ const OurProcess = () => {
             <div>
               <img className="absolute top-[50%] left-[45%] max-sm:w-[15%] cursor-pointer" src={play_icon} alt="#" />
             </div>
+            
           </div>
+          {/* <div className="md:pt-[80px] pt-[40px] relative">
+      <img className="w-[100%] w-[688px]" src={img_s} alt="#" />
+      <div>
+        <img
+          className="absolute top-[50%] left-[45%] max-sm:w-[15%] cursor-pointer"
+          src={play_icon}
+          alt="#"
+          onClick={() => setOpen(true)}
+        />
+        <ModalVideo
+          channel='youtube' // Use 'youtube', 'vimeo', or 'custom' based on your video source
+          isOpen={isOpen}
+          videoId='your-video-id' // Replace with your actual video ID
+          onClose={() => setOpen(false)}/>
+      </div>
+        </div> */}
         </div>
       </div>
-    </>
-  );
-};
-
+      </>
+    );
+    };
 export default OurProcess;
