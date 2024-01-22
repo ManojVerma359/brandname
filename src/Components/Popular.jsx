@@ -18,11 +18,11 @@ const Popular = () => {
             Problems trying to resolve the conflict between the two major realms
             of Classical physics: Newtonian mechanics{" "}
           </p>
-          <div className="pt-[35px] flex gap-[10px] items-center max-sm:justify-center cursor-pointer">
+          <div className="pt-[35px] flex gap-[10px] hover:gap-[15px] hover:transition-all hover:duration-300ms transition-all duration-300ms  items-center max-sm:justify-center cursor-pointer">
             <p className="ff_mont text-[#96BB7C] text-[14px] font-bold tracking-[0.2px] leading-[24px]">
               Learn More
             </p>
-            <img src={arrow_l} alt="#" />
+            <img  src={arrow_l} alt="#" />
           </div>
         </div>
       </div>

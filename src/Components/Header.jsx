@@ -79,7 +79,7 @@ const Header = () => {
                 </li>
                 <li className="sm:hidden">
                   <a
-                    className="text-[#96BB7C] text-[14px] ff_mont font-bold leading-[32px] tracking-[0.1px]"
+                    className="text-[#96BB7C] text-[14px] ff_mont font-bold leading-[32px] tracking-[0.1px] transition-all duration-300 ease-in-out text-[#737373] relative after:absolute after:w-0 after:h-[2px] after:start-1 after:end-1 after:bottom-[-3px] after:bg-[#96bb7c] hover:after:w-full hover:after:start-0 after:transition-all after:duration-300 after:ease-linear  after:rounded"
                     href=""
                   >
                     Login
@@ -97,7 +97,7 @@ const Header = () => {
             <ul className="flex items-center gap-[45px] cursor-pointer max-sm:hidden">
               <li>
                 <a
-                  className="text-[#96BB7C] text-[14px] ff_mont font-bold leading-[32px] tracking-[0.1px]"
+                  className="text-[#96BB7C] text-[14px] ff_mont font-bold leading-[32px] tracking-[0.1px] transition-all duration-300 ease-in-out text-[#737373] relative after:absolute after:w-0 after:h-[2px] after:start-1 after:end-1 after:bottom-[-3px] after:bg-[#96bb7c] hover:after:w-full hover:after:start-0 after:transition-all after:duration-300 after:ease-linear  after:rounded"
                   href=""
                 >
                   Login
@@ -134,7 +134,7 @@ const Header = () => {
               <button className="text-[14px] text-white font-bold leading-[22px] tracking-[0.2px] ff_mont bg-[#96BB7C] hover:bg-[#FFAB71] transition-all duration-400ms px-[40px] py-[10px] rounded-[5px]">
                 Join Us
               </button>
-              <button className="text-[14px] text-[#96BB7C] font-bold leading-[22px]  tracking-[0.2px] ff_mont border border-[#96BB7C] hover:border-[#FFAB71] hover:text-white hover:bg-[#FFAB71] transition-all duration-400ms px-[40px] py-[15px] rounded-[5px]">
+              <button className="text-[14px] text-[#96BB7C] font-bold leading-[22px]  tracking-[0.2px] ff_mont border border-[#96BB7C] shdow transiton-all duration-300ms  transition-all duration-400ms px-[40px] py-[15px] rounded-[5px]">
                 Learn More
               </button>
             </div>

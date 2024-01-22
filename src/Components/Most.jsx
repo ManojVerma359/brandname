@@ -22,7 +22,7 @@ const Most = () => {
           </p>
 
           <div className="md:pt-[80px] pt-[40px] flex max-md:flex-wrap max-md:justify-center gap-[30px]">
-            <div className="bg-white w-[328px] h-[264px] py-[35px] px-[40px] shadow flex flex-col items-center justify-center"  data-aos="fade-down">
+            <div className="bg-white w-[328px] h-[264px] py-[35px] px-[40px] shadow flex flex-col items-center justify-center cursor-pointer"  data-aos="fade-down">
               <img src={icon1} alt="#" />
               <p className="text-[16px] font-bold leading-[24px] tracking-[0.1px] text-[#252B42] ff_mont py-[20px]">
                 training Courses
@@ -31,7 +31,7 @@ const Most = () => {
               <img src={red_line} alt="#" />
               <p className="text-[14px] font-normal ff_mont text-[#737373] leading-[20px] tracking-[0.2px] max-w-[136px] text-center pt-[20px]">The gradual accumulation and small-scale..</p>
             </div>
-            <div className="bg-white w-[328px] h-[264px] py-[35px] px-[40px] shadow flex flex-col items-center justify-center max-md:mt-4" data-aos="fade-down">
+            <div className="bg-white w-[328px] h-[264px] py-[35px] px-[40px] shadow flex flex-col items-center justify-center max-md:mt-4 cursor-pointer" data-aos="fade-down">
               <img src={icon2} alt="#" />
               <p className="text-[16px] font-bold leading-[24px] tracking-[0.1px] text-[#252B42] ff_mont py-[20px]">
               2,769 online courses	

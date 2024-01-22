@@ -76,7 +76,7 @@ const Every = () => {
                     $16.48
                   </p>
                 </div>
-                <div className="px-[20px] py-[10px] border border-[#96BB7C]  text-[#96BB7C] rounded-[37px] flex inline-flex mt-[10px] gap-[10px] items-center cursor-pointer">
+                <div className="px-[20px] py-[10px] border border-[#96BB7C] shdow transiton-all duration-300ms   text-[#96BB7C] rounded-[37px] flex inline-flex mt-[10px] gap-[10px] items-center cursor-pointer">
                   <p className="ff_mont   text-[14px] font-bold tracking-[0.2px] leading-[24px] ">
                     Learn More
                   </p>
@@ -137,7 +137,7 @@ const Every = () => {
                     $16.48
                   </p>
                 </div>
-                <div className="px-[20px] py-[10px] border border-[#96BB7C] rounded-[37px] flex inline-flex mt-[10px] gap-[10px] items-center cursor-pointer">
+                <div className="px-[20px] py-[10px] shdow transiton-all duration-300ms border border-[#96BB7C] rounded-[37px] flex inline-flex mt-[10px] gap-[10px] items-center cursor-pointer">
                   <p className="ff_mont text-[#96BB7C] text-[14px] font-bold tracking-[0.2px] leading-[24px]">
                     Learn More
                   </p>
